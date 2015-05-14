@@ -1,0 +1,9 @@
+environment:
+  language: java
+  language_versions: 1.6.0_24
+
+build:
+  info:
+    - echo "Env:" ; env
+    - java -version
+  run:  echo "Running build"
